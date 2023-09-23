@@ -20,7 +20,6 @@ const Products: React.FC = () => {
           data in your legacy system.
         </p>
       </div>
-
       <div className="bg-[#F3F6FA] flex flex-row justify-center items-center py-[100px]">
         <div className="wrapper">
           <div className="card">
@@ -54,7 +53,6 @@ const Products: React.FC = () => {
           by creating, modifying, and querying graph data.
         </p>
       </div>
-
       <div className="flex flex-col items-center">
         <div className="flex flex-col sm:flex-row justify-center space-x-5">
           <div className="flex flex-row justify-center">
