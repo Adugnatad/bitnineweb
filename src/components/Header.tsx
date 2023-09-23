@@ -5,7 +5,7 @@ import { BsMedium, BsFacebook } from "react-icons/bs";
 import { FaBars } from "react-icons/fa";
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import bitnineImg from "../assets/bitnine-logo.png";
+// import bitnineImg from "../assets/bitnine-logo.png";
 import useDetectScroll from "@smakss/react-scroll-direction";
 import {
   Accordion,
@@ -113,12 +113,13 @@ const Header: React.FC = () => {
           </div>
         </div>
         <div className="bg-black flex flex-row items-center justify-between px-6 tb:px-2 pt-2 mt-[-5px] relative">
-          <img
+          {/* <img
             src={bitnineImg}
             style={{ width: "230px", height: "60px" }}
             className="hidden tb:flex"
             alt="bitnine-logo"
-          />
+          /> */}
+          <div className="w-[230px] h-[60px] hidden tb:flex"></div>
           <div className="flex flex-row items-center space-x-6 hidden tb:flex ">
             <div className="group" onClick={() => Navigate("/products")}>
               <span
@@ -224,11 +225,12 @@ const Header: React.FC = () => {
             <AccordionItem borderColor={"black"}>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                  <img
+                  {/* <img
                     src={bitnineImg}
                     style={{ width: "230px", height: "60px" }}
                     alt="bitnine-logo"
-                  />
+                  /> */}
+                  <div className="w-[230px] h-[60px] hidden"></div>
                 </Box>
                 <FaBars
                   size={23}
@@ -441,15 +443,16 @@ const Header: React.FC = () => {
           <AccordionItem borderColor={"transparent"}>
             <AccordionButton>
               <Box as="span" flex="1" textAlign="left">
-                <img
+                {/* <img
                   src={bitnineImg}
                   style={{ width: "230px", height: "60px" }}
                   alt="bitnine-logo"
-                />
+                /> */}
+                <div className="w-[230px] h-[60px] hidden tb:flex"></div>
               </Box>
               <FaBars
                 size={23}
-                className="cursor-pointer text-[#000] duration-300 hover:text-[#FAC433]"
+                className="cursor-pointer text-[#fff] duration-300 hover:text-[#FAC433]"
               />
             </AccordionButton>
             <AccordionPanel>
