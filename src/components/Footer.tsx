@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="flex flex-row items-center justify-between w-[65%] p-2">
         <div className="text-[#99A2A7] text-[13px] md:text-[16px]">
-          &copy; 2023 by Adugna Tadesse. All Rights Reserved.
+          &copy; 2023 by Bitnine Global Inc. All Rights Reserved.
         </div>
         <div className="flex flex-row items-center hidden md:flex">
           <div className="flex flex-col items-center p-2 bg-[length:200px_100px] relative group">
